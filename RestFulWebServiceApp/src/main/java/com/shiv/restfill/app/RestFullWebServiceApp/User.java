@@ -17,7 +17,7 @@ public class User
     private int id;
 
     @Column( name = "NAME" )
-    @Min( value = 2, message = "Mininum 2 leters has to be there" )
+   // @Min( value = 2, message = "Mininum 2 leters has to be there" )
     private String name;
 
     @Column( name = "BIRTH_DATE" )

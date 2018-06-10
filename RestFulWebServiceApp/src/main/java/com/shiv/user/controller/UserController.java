@@ -28,7 +28,7 @@ public class UserController
     @Autowired
     private UserService mUserService;
 
-    @RequestMapping( path = "sayHi" )
+    @RequestMapping( path = "/sayHi" )
     public String sayHi()
     {
         return "Hellow Shiva Here";
